@@ -278,4 +278,3 @@ Esta tag pode receber alguns atributos específicos como o atributo method, que 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
-
