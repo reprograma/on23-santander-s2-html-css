@@ -73,6 +73,8 @@ Tambem vamos construir um forms:
 </form>
 ```
 
+Versão final do exercício é  com vocês!!
+
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
 - [ ] Acompanhei os exercícios  em aula
