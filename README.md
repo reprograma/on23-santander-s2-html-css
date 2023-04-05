@@ -1,8 +1,8 @@
-# On8-HTML-CSS
+# On23-HTML-CSS
 
 Online-23 | Front-end | 2023 | Fundamentos de HTML e CSS
 
-> Plano de aula para o dia 22 de agosto, sobre HTML e CSS básico.
+> Plano de estudos sobre HTML e CSS básico.
 > Este arquivo será alimentado conforme o andamento da semana (:
 
 <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif"  width="250">
