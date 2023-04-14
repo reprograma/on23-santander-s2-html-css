@@ -7,85 +7,12 @@ Online-23 | Front-end | 2023 | Fundamentos de HTML e CSS
 
 <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif"  width="250">
 
-
----
-
-[link para o arquivo dontpad](http://dontpad.com/htmlcssOn8);
-[Deploy do resultado final => https://online8-reprograma.netlify.app](https://online8-reprograma.netlify.app/);
-
----
-
-## CONTEÚDO PARA ESTUDAR
-
-- [x] **Apresentação**
-- [x] **Combinados**
-- [x] **Preparando estrutura de desenvolvimento juntas**
-  - [x] Criando pastas e arquivos
-- [x] **Introdução e revisão - HTML**
-  - [x] Cliente e Servidor
-  - [x] O que é linguagem de marcação de hipertexto? `<!DOCTYPE html>`
-  - [x] HTML vs. HTML5 | CSS vs CSS3
-  - [x] Elementos `<head>` e `<body>`
-- [x] **Intervalo** - 15min
-  - [x] Elementos HTML: tags (etiquetas) e atributos
-    - [x] Exemplo com imagens `<img>` e seus atributos `src` e `alt` e parágrafos `<p>`
-  - [x] Tags semânticas, como e porque usá-las! (:
-    - [x] `<header>` `<nav>` `<footer>` `<main>` `<section>` `<article>` `<ul>` `<ol>` `<li>` `<figure>` `<aside>` `<button>`
-  - [x] `<a>` - links em âncora, e seu atributo `href`
-- [x] **Introdução CSS**
-  - [x] CSS - Folha de estilo em cascata
-    - [x] Diferentes formas de adicionar estilo à página
-      - [x] A tag e atributo `<style>`
-      - [x] Importar arquivo style.css através da tag `<link>`
-  - [x] - Estilizando o CSS juntas - propriedades básicas `color` `bg-color` `font-size` `font-family`
-  - [x] Seletores CSS - `.class` `#id` `elemento` `atributo`
-  - [x] Especificidade com seletores, propriedades CSS e efeito cascata
-  - [x] Pseudo-seletores, ex: - `:hover`
-
----
-
-<img src="https://media.giphy.com/media/fuJPZBIIqzbt1kAYVc/giphy.gif" height="250">
-
 _html é a estrutura_
 _css é o estilo por cima_
 
-
-- [x] **Dúvidas da manhã**
-- [x] **Box-sizings (tamanho das caixas) e displays**
-  - [x] Blocos `<div>` e elementos em linha `<span>`, `<img>`
-  - [x] Displays block, inline, inline-block
-  - [x] Mexendo em bordas, margens, preenchimentos e conteúdo  
-         - [x] `border` `margin` `padding` `width` `height`  
-         - [x] border-box vs content-box
-- [x] **Reset básico - mexendo nos estilos padrão de página**
-      [x] - elemento `*`, padrões de `li` `a`
-- [x] **Display flex - o famoso Flexbox**
-  - [x] Mães `<div>`as e filhas `<div>`inhas. Display na mãe, mexe as filhas.
-  - [x] Algumas propiedades e seus valores: `justify-content` `align-items` `align-content` `flex-direction` 
-- [x] **Intervalo** - 15min
-- [x] **Codando juntas**
-  - [x] Usando o inspetor de código - ctrl + shift + i (:
-  - [x] Criando navBar
-    - [x] Nomeando classes pra não se perder, introdução ao método BEM
-  - [x] criando uma section
-- [x] **Retirar dúvidas, deixar o exercício para concluir até sexta e falar sobre materiais e jogos disponíveis :)**
-
 ---
 
-<img src="https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif" height="300">
-
 ## _É comum e normal errar muitas vez o CSS, aprendê-lo é um joguinho de paciência_
-
-
-- [x] **Meu primeiro formulário**
-  - [x] Elementos `<form>` `<input>` `<label>` `<textarea>` `<select>` `<option>` `<button>`
-  - [x] atributos `type` `for` `name` `placeholder`
-- [x] **Mais algumas dicas importantes**
-  - [x] Endentar o código :)
-  - [x] Importando fontes externas (ex.: Google Fonts)
-  - [x] `background-image`
-- [x] **Tirar dúvidas da semana**
-
 
 ---
 
