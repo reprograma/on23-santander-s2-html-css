@@ -29,7 +29,7 @@ _css é o estilo por cima_
 - [Conceitos básicos de flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox);
 - [Calma senhora - ótimo site guia para estudos - desenvolvido por aluna da reprograma](https://calma-senhora.netlify.app/);
 
-**Dicas do Dontpad, aula dia 22**
+**Dicas**
 
 - [Nappy - site com imagens de pessoas negras e marrons](https://www.nappy.co/);
 - [Sobre Lorem Ipsum](https://pt.lipsum.com/);
