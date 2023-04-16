@@ -1,0 +1,54 @@
+/* Neste exemplo, a propriedade align-content é utilizada 
+para alinhar os itens verticalmente dentro do 
+container. 
+
+O valor space-around distribui o espaço em azul de 
+maneira uniforme ao redor dos itens, criando um 
+espaçamento igual entre eles e nas extremidades do container. */
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+  }
+  
+  .item {
+    background-color: rgb(58, 24, 211);
+    padding: 10px;
+    margin: 5px;
+    /* height: 50px; */
+    /* width: 40px; */
+  }
+
+  .item1 {
+    background-color: brown;
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  /* O uso da propriedade flex-wrap: wrap permite que os itens dentro 
+  do container sejam quebrados em linhas adicionais, 
+  em vez de todos ficarem em uma única linha. Isso pode ser 
+  útil quando há muitos itens dentro do container 
+  e o espaço horizontal disponível não é suficiente para 
+  exibi-los em uma única linha sem que haja um excesso de largura.
+
+  Quando usamos flex-wrap: wrap, os itens extras são automaticamente 
+  transferidos para uma nova linha, permitindo que mais itens 
+  possam ser exibidos em um espaço limitado. */
+
+  /* A propriedade flex-wrap é responsável por definir se os itens dentro do 
+  container flex devem ser dispostos em uma ou várias linhas. 
+  Quando ela é definida como wrap, os itens são agrupados em 
+  linhas adicionais conforme necessário para preencher o 
+  espaço disponível no container.
+
+se a gente definir explicitamente uma altura e largura nos itens filhos 
+que ultrapassam a largura do container flex, os itens vão se sobrescrever e 
+não serão quebrados em linhas adicionais. Para quebrar os itens em 
+várias linhas, o container flex precisa ter largura suficiente para 
+acomodar os itens ou você pode definir uma largura menor para os itens filhos. */

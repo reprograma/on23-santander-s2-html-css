@@ -1,0 +1,16 @@
+/* Nesse exemplo, estamos definindo que os itens devem ser 
+dispostos da direita para a esquerda, já que o valor row-reverse 
+foi definido na propriedade flex-direction. */
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  
+  .item {
+    background-color: rgb(58, 24, 211);
+    padding: 10px;
+    margin: 5px;
+  }

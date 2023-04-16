@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+/* A propriedade position permite que você defina a 
+posição de um elemento em relação ao seu contêiner pai.
+
+Quando a gente define a posição de um elemento como absolute, 
+ele é posicionado em relação ao contêiner pai mais próximo tenha a propriedade 
+position definida como relative, absolute ou fixed.
+
+No exemplo o contêiner pai .container tem a propriedade position definida 
+como relative. Isso significa que o elemento filho .box com a propriedade 
+position definida como absolute será posicionado em relação ao .container.
+
+Por isso, ao definir a posição do elemento filho como absolute, 
+você pode posicionar ele dentro do contêiner de forma precisa 
+e independente dos demais elementos do layout. */
+
+
+/* Sim, você pode aplicar a propriedade position: absolute em um elemento filho sem
+ que o elemento pai tenha a propriedade position: relative. 
+ Porém, ao fazer isso, o posicionamento absoluto será em relação ao elemento pai
+  mais próximo que tenha uma posição definida.
+
+Caso nenhum elemento pai tenha uma posição definida, o elemento posicionado 
+absolutamente será posicionado em relação ao elemento body. 
+Isso pode causar problemas de posicionamento em layouts mais complexos, 
+por isso é recomendável definir um elemento pai com a posição 
+relativa quando se trabalha com elementos posicionados absolutamente. */
+
+.box1 {
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.box2 {
+  top: 0;
+  right: 0;
+  background-color: green;
+}
+
+.box3 {
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+}

@@ -1,0 +1,85 @@
+/* A propriedade justify-content é aplicada no container flex, 
+não nos itens flex individuais. Isso ocorre porque a 
+propriedade determina como os itens(filhos) serão distribuídos 
+ao longo do eixo principal do container(pai).
+
+Ou seja, o justify-content define o alinhamento horizontal 
+dos itens(filhos) flex no container(pai).
+
+Ao aplicar o justify-content no container(pai), 
+podemos controlar o espaçamento e o alinhamento horizontal 
+dos itens(filhos) dentro dele, permitindo que os itens(filhos) sejam 
+organizados de maneira mais eficiente e estética. */
+
+
+/* Tecnicamente, é possível aplicar a propriedade justify-content 
+diretamente nos itens filhos dentro do container(pai) flex. 
+No entanto, essa abordagem não é tão eficaz quanto aplicar 
+a propriedade no container(pai), por algumas razões:
+
+A propriedade justify-content é destinada a controlar o espaçamento 
+e o alinhamento horizontal de vários itens(filhos) flex dentro do container.
+Se aplicada individualmente em cada item, perderíamos a 
+capacidade de controlar o alinhamento dos itens como um grupo.
+
+Quando aplicada nos itens filhos individuais, 
+a propriedade justify-content funciona apenas para um único item. 
+Isso significa que se tivermos vários itens dentro do container, 
+teríamos que aplicar a propriedade em cada um individualmente, 
+o que seria trabalhoso e pouco eficiente.
+
+Em resumo, a melhor prática é aplicar a propriedade 
+justify-content no container(pai) flex, permitindo o controle do 
+alinhamento e espaçamento de todos os itens flex de uma só vez. 
+
+e sinceramente, nao faria muito sentido aplicar no filho e a prof vai mostrar o pq*/
+
+.container {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+
+
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    margin-right: 10px;
+  }
+  
+
+  /* aplicando no filho: */
+  /* .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item1 {
+    align-self: flex-start;
+  }
+  
+  .item2,
+  .item3 {
+    align-self: flex-end;
+  } */
+  
+  /* A propriedade justify-content é aplicada no container pai 
+  de um conjunto de elementos flexíveis, enquanto a propriedade align-self 
+  é aplicada a um elemento flexível individual. Isso ocorre porque 
+  a propriedade justify-content alinha os elementos horizontalmente dentro 
+  do contêiner pai, enquanto a propriedade align-self alinha um elemento 
+    verticalmente em relação aos demais elementos dentro do contêiner pai.
+
+    Portanto, se um elemento filho precisar ser alinhado 
+    horizontalmente em relação aos outros elementos, 
+    a propriedade justify-content deve ser aplicada no contêiner pai. 
+    Se um elemento filho precisar ser alinhado verticalmente em 
+    relação aos outros elementos, a propriedade align-self deve 
+    ser aplicada diretamente ao elemento filho em questão. */
+  

@@ -1,0 +1,46 @@
+a {
+  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+a > li
+
+a:hover {
+  text-decoration: underline;
+  background-color: aqua;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+
+/* .navegacao__itens li > a:hover {
+  color: #C083B9;
+} */
+
+/* esse código CSS está usando uma pseudo-classe :hover 
+para definir um estilo o que está dentro que está dentro de um elemento 
+com a classe .navegacao__itens quando o mouse está sobre o link. */
+
+/* 
+O símbolo ">" é conhecido como "seletor filho direto" 
+(direct child selector) e indica que o estilo CSS que está sendo 
+definido será aplicado apenas aos elementos que são filhos diretos 
+do elemento anterior na seleção. */
+
+/* Nesse exemplo da prof no M de Maravilhosas, o seletor
+ ".navegacao__itens li > a:hover" significa que o estilo CSS 
+ (color: #C083B9;) será aplicado somente aos elementos "a" 
+ que são filhos diretos de um elemento "li" que, por sua vez, 
+ é filho direto do elemento com a classe "navegacao__itens", 
+ e que estiverem em estado de "hover" 
+ (quando o mouse estiver passando por cima do elemento). */
+
+

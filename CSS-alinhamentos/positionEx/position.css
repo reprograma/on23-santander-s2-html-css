@@ -1,0 +1,88 @@
+
+      /* Exemplo 1 */
+      .exemplo-1 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #f2f2f2;
+      }
+
+      .exemplo-1 .caixa {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: #1abc9c;
+      }
+
+      /* Exemplo 2 */
+      .exemplo-2 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #f2f2f2;
+      }
+
+      .exemplo-2 .caixa {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+      }
+
+      /* Exemplo 3 */
+      .exemplo-3 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #f2f2f2;
+      }
+
+      .exemplo-3 .caixa {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: #9b59b6;
+      }
+
+      /* Exemplo 4 */
+      .exemplo-4 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #f2f2f2;
+      }
+
+      .exemplo-4 .caixa {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: #e74c3c;
+      }
+
+      /* Exemplo 5 */
+      .exemplo-5 {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-color: #f2f2f2;
+      }
+
+      .exemplo-5 .caixa {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        background-color: #f1c40f;
+      }

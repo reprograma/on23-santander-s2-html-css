@@ -1,0 +1,67 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 100px);
+	grid-gap: 10px;
+  }
+  
+  .item {
+	background-color: #ddd;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+  }
+  
+  /* Neste exemplo, o container de grade tem três colunas e duas linhas,
+definidas pela propriedade grid-template-columns e grid-template-rows. 
+
+Os itens são colocados na grade usando a propriedade grid-row e grid-column, 
+e há um espaço de 10 pixels entre as linhas e colunas da grade, 
+definido pela propriedade grid-gap.
+
+Para praticar, vocês podem tentar criar diferentes layouts usando a 
+propriedade display: grid. Por exemplo, tentem criar uma grade com uma
+ única linha e várias colunas. ou uma grade com um número variável de 
+ linhas e colunas com base no tamanho da tela. */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ Vocês podem usar unidades de medida relativas, como porcentagem ou "fr" (frações) 
+ em vez de unidades de medida absolutas, como pixels, para definir o 
+ tamanho das colunas e linhas da grade. Isso permite que a grade se adapte 
+ ao tamanho da tela.
+
+Além disso, vocês podem usar media queries para alterar o número de colunas e 
+linhas da grade com base no tamanho da tela. Por exemplo, vocês podem definir 
+uma grade com quatro colunas em telas maiores que 768 pixels e duas 
+colunas em telas menores que 768 pixels. */
+
+/* .grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+  }
+  
+  .grid-item {
+	background-color: #ccc;
+	padding: 20px;
+  }
+   */
+/* 
+   Neste exemplo, estamos criando uma grade com colunas que se ajustam 
+   automaticamente ao tamanho da tela (graças ao auto-fit), com um 
+   mínimo de 200 pixels e um máximo de 1fração da largura disponível 
+   (graças ao minmax(200px, 1fr)). O grid-gap de 20 pixels cria um 
+   espaço entre as células.
+
+Você pode experimentar este código e alterar o tamanho da janela 
+do navegador para ver como a grade se adapta dinamicamente. */

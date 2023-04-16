@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "sidebar main-content"
+    "footer footer";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightblue;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lightgreen;
+}
+
+.main-content {
+  grid-area: main-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.blog-post {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightpink;
+}

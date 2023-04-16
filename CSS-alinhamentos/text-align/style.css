@@ -1,0 +1,37 @@
+/* Nesse exemplo, estamos alinhando o texto dentro do elemento h1 
+centralizado horizontalmente com text-align: center. 
+
+Além disso, estamos alinhando o texto dentro dos 
+elementos p justificados, criando um espaçamento adicional 
+entre as palavras, se necessário, com text-align: justify.
+
+Estamos alinhando o h2 a esquerda e o h3 a direita
+
+Podemos usar classe .container, para definir a 
+largura máxima e centralizar o conteúdo.
+
+Isso é importante para que o alinhamento 
+do texto com text-align seja visível, já que o texto estará 
+contido dentro daquele elemento. */
+
+.container {
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+  

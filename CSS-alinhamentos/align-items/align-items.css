@@ -1,0 +1,28 @@
+/* Nesse exemplo, a propriedade align-items é definida como "center" 
+para o contêiner, o que faz com que os itens dentro do contêiner 
+sejam centralizados ao longo do eixo transversal (verticalmente, no caso). */
+
+
+.container {
+  display: flex;
+  height: 300px;
+  align-items: flex-end;
+}
+
+.item {
+  width: 100px;
+  height: 50px;
+  background-color: #ccc;
+  margin: 10px;
+}
+
+
+/* No segundo exemplo, a propriedade align-items é definida como "flex-end" 
+para o contêiner, o que faz com que os itens dentro do contêiner 
+sejam alinhados ao final do eixo transversal (ou seja, para baixo, 
+já que o contêiner tem altura definida). Além disso, o contêiner tem 
+a propriedade flex-wrap definida como "wrap", o que faz com que os 
+itens sejam quebrados em várias linhas, em vez de ficarem todos na mesma linha.
+ */
+
+
